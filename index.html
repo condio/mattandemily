@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.67.0" />
+    <meta charset="utf-8">
+<title>reveal-hugo</title>
+<meta name="description" content="A Hugo theme for creating Reveal.js presentations">
+<meta name="author" content="Josh Dzielak">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/mattandemily/reveal-js/css/reset.css">
+<link rel="stylesheet" href="/mattandemily/reveal-js/css/reveal.css"><link rel="stylesheet" href="/mattandemily/reveal-js/css/theme/black.css" id="theme">
+<link rel="stylesheet" href="/mattandemily/highlight-js/default.min.css">
+    
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+  
+
+    
+<section data-noprocess data-shortcode-slide
+      data-background-image="/img/mattandemily.jpg">
+  
+<h1 id="matt--emily">Matt &amp; Emily</h1>
+<p>An adorable couple with a website.</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="/img/matt.jpg"
+      data-background-opacity="0.3">
+  
+<h1 id="matthew-condio">Matthew Condio</h1>
+<blockquote>
+<p>Matt likes photography, driving cars, playing with new technology, and traveling.</p>
+</blockquote>
+<p>[Instagram Link] - [YouTube Link]</p>
+</section>
+
+<section data-noprocess data-shortcode-slide
+      data-background-image="/img/emily.jpg"
+      data-background-opacity="0.3">
+  
+<h1 id="emily-powell">Emily Powell</h1>
+<blockquote>
+<p>Emily likes to read, travel, do puzzles, and exercise. She occasionally convinces Matt to go to the gym with her. Emily is also one of the world’s biggest sea otter fans; a passion she shares with Matt.</p>
+</blockquote>
+<p>[Another Year of Books Link]</p>
+</section><section>
+<p>This site is a Work in Progress</p>
+</section>
+
+  
+
+
+</div>
+      
+
+    </div>
+<script type="text/javascript" src=/mattandemily/reveal-hugo/object-assign.js></script>
+
+<a href="/mattandemily/reveal-js/css/print/" id="print-location" style="display: none;"></a>
+<script type="text/javascript">
+  var printLocationElement = document.getElementById('print-location');
+  var link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = printLocationElement.href + (window.location.search.match(/print-pdf/gi) ? 'pdf.css' : 'paper.css');
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+
+<script type="application/json" id="reveal-hugo-site-params">{"templates":{"grey":{"background":"#424242","transition":"convex"}}}</script>
+<script type="application/json" id="reveal-hugo-page-params">null</script>
+
+<script src="/mattandemily/reveal-js/js/reveal.js"></script>
+
+<script type="text/javascript">
+  
+  
+  function camelize(map) {
+    if (map) {
+      Object.keys(map).forEach(function(k) {
+        newK = k.replace(/(\_\w)/g, function(m) { return m[1].toUpperCase() });
+        if (newK != k) {
+          map[newK] = map[k];
+          delete map[k];
+        }
+      });
+    }
+    return map;
+  }
+  
+  var revealHugoDefaults = { center: true, controls: true, history: true, progress: true, transition: "slide" };
+  var revealHugoSiteParams = JSON.parse(document.getElementById('reveal-hugo-site-params').innerHTML);
+  var revealHugoPageParams = JSON.parse(document.getElementById('reveal-hugo-page-params').innerHTML);
+  
+  var options = Object.assign({},
+    camelize(revealHugoDefaults),
+    camelize(revealHugoSiteParams),
+    camelize(revealHugoPageParams));
+  Reveal.initialize(options);
+</script>
+
+
+  
+  
+  <script type="text/javascript" src="/mattandemily/reveal-js/plugin/markdown/marked.js"></script>
+  
+  <script type="text/javascript" src="/mattandemily/reveal-js/plugin/markdown/markdown.js"></script>
+  
+  <script type="text/javascript" src="/mattandemily/reveal-js/plugin/highlight/highlight.js"></script>
+  
+  <script type="text/javascript" src="/mattandemily/reveal-js/plugin/zoom-js/zoom.js"></script>
+  
+  
+  <script type="text/javascript" src="/mattandemily/reveal-js/plugin/notes/notes.js"></script>
+
+
+
+    
+    
+  </body>
+</html>
